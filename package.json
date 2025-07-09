@@ -18,12 +18,4 @@
     "node-fetch": "^3.3.2",
     "readline-sync": "^1.4.10"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BinchMarkByShivraj5600/AI_Agent.git"
-  },
-  "bugs": {
-    "url": "https://github.com/BinchMarkByShivraj5600/AI_Agent/issues"
-  },
-  "homepage": "https://github.com/BinchMarkByShivraj5600/AI_Agent#readme"
-}
+
