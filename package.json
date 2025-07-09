@@ -1,7 +1,7 @@
 {
   "name": "aiagent",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is a Node.js command-line AI agent that uses the Google Gemini API to answer questions, perform math, check for prime numbers, and fetch cryptocurrency prices. It demonstrates function calling with Gemini and integrates with external APIs.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,18 @@
   "type": "module",
   "dependencies": {
     "@google/genai": "^1.8.0",
-    "dotenv": "^17.0.1",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
     "node-fetch": "^3.3.2",
     "readline-sync": "^1.4.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BinchMarkByShivraj5600/AI_Agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BinchMarkByShivraj5600/AI_Agent/issues"
+  },
+  "homepage": "https://github.com/BinchMarkByShivraj5600/AI_Agent#readme"
 }
